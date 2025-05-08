@@ -27,7 +27,7 @@ export default function TitulosScreen() {
       data={titulos}
       keyExtractor={(item) => item.nome}
       renderItem={({ item }) => (
-        <List.Section>
+        <List.Section style={styles.section}>
           <List.Subheader>{item.nome}</List.Subheader>
           <List.Item
             title={`Anos: ${item.anos.join(', ')}`}
@@ -38,3 +38,11 @@ export default function TitulosScreen() {
     />
   );
 }
+
+const styles = StyleSheet.create({
+  section: {
+    backgroundColor: '#1e1e1e',
+    margin: 10,
+    borderRadius: 10,
+  },
+});

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Image, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { Card, Text } from 'react-native-paper';
 
 const time = {
@@ -14,7 +14,7 @@ const time = {
 export default function EscudoScreen() {
   return (
     <View style={styles.container}>
-      <Card>
+      <Card style={styles.card}>
         <Card.Cover source={{ uri: time.escudo }} />
         <Card.Title title={time.nome} subtitle={`Fundado em ${time.fundacao}`} />
         <Card.Content>
@@ -30,5 +30,10 @@ export default function EscudoScreen() {
 const styles = StyleSheet.create({
   container: {
     padding: 16,
+  },
+  card: {
+    borderRadius: 12,
+    backgroundColor: '#1e1e1e',
+    elevation: 4,
   },
 });

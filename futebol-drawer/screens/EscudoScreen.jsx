@@ -3,12 +3,12 @@ import { View, StyleSheet } from 'react-native';
 import { Card, Text } from 'react-native-paper';
 
 const time = {
-  nome: "Flamengo",
-  escudo: "https://i.pinimg.com/236x/16/db/d2/16dbd20fd582e025dc54cc3fbd1839c9.jpg",
-  fundacao: "15 de novembro de 1895",
-  estadio: "Maracanã",
-  mascote: "Urubu",
-  cores: ["Vermelho", "Preto"]
+  nome: "Golden State Warriors",
+  escudo: "https://bolade3.com.br/wp-content/uploads/2022/10/golden-state-scaled.jpg",
+  fundacao: "1946",
+  estadio: "Chase Center",
+  mascote: "Thunder (mascote anterior)",
+  cores: ["Azul", "Dourado"]
 };
 
 export default function EscudoScreen() {

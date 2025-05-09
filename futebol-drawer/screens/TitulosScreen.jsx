@@ -4,20 +4,16 @@ import { List } from 'react-native-paper';
 
 const titulos = [
   {
-    nome: "Campeonato Brasileiro",
-    anos: [1980, 1982, 1983, 1992, 2009, 2019, 2020]
+    nome: "NBA Championships",
+    anos: [1947, 1956, 1975, 2015, 2017, 2018, 2022]
   },
   {
-    nome: "Copa Libertadores da América",
-    anos: [1981, 2019, 2022]
+    nome: "Conference Titles",
+    anos: [1947, 1948, 1956, 1964, 1967, 1975, 2015, 2016, 2017, 2018, 2019, 2022]
   },
   {
-    nome: "Copa do Brasil",
-    anos: [1990, 2006, 2013, 2022, 2024]
-  },
-  {
-    nome: "Supercopa do Brasil",
-    anos: [2020, 2021, 2025]
+    nome: "Division Titles",
+    anos: [1975, 1976, 2015, 2016, 2017, 2018, 2019, 2022]
   }
 ];
 

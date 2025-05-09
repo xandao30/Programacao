@@ -4,39 +4,39 @@ import { Card, Text } from 'react-native-paper';
 
 const jogadores = [
   {
-    nome: "Gabriel Barbosa",
-    numero: 9,
-    posicao: "Atacante",
-    idade: 27,
-    imagem: "https://i.pinimg.com/474x/1d/9f/5d/1d9f5de58831c9913f925a7155bdc7da.jpg"
+    nome: "Stephen Curry",
+    numero: 30,
+    posicao: "Armador",
+    idade: 36,
+    imagem: "https://cdn.nba.com/headshots/nba/latest/1040x760/201939.png"
   },
   {
-    nome: "Arrascaeta",
-    numero: 14,
-    posicao: "Meia",
-    idade: 29,
-    imagem: "https://i.pinimg.com/474x/cf/ad/d9/cfadd92de5e581ac5505e3d325f8b9b2.jpg"
+    nome: "Klay Thompson",
+    numero: 11,
+    posicao: "Ala-armador",
+    idade: 34,
+    imagem: "https://cdn.nba.com/headshots/nba/latest/1040x760/202691.png"
   },
   {
-    nome: "Everton Ribeiro",
-    numero: 7,
-    posicao: "Meia",
-    idade: 33,
-    imagem: "https://i.pinimg.com/236x/39/1a/27/391a275fb7e0b018f2900f0f9fc9331b.jpg"
-  },
-  {
-    nome: "David Luiz",
+    nome: "Draymond Green",
     numero: 23,
-    posicao: "Zagueiro",
-    idade: 35,
-    imagem: "https://i.pinimg.com/474x/98/79/9b/98799b86107a87b79dc9b15cf778fa4a.jpg"
+    posicao: "Ala-pivô",
+    idade: 34,
+    imagem: "https://cdn.nba.com/headshots/nba/latest/1040x760/203110.png"
   },
   {
-    nome: "Pedro",
-    numero: 21,
-    posicao: "Atacante",
-    idade: 26,
-    imagem: "https://i.pinimg.com/474x/79/e6/18/79e6185649fa3667b3ed3beef3e1ae94.jpg"
+    nome: "Andrew Wiggins",
+    numero: 22,
+    posicao: "Ala",
+    idade: 29,
+    imagem: "https://cdn.nba.com/headshots/nba/latest/1040x760/203952.png"
+  },
+  {
+    nome: "Kevon Looney",
+    numero: 5,
+    posicao: "Pivô",
+    idade: 28,
+    imagem: "https://cdn.nba.com/headshots/nba/latest/1040x760/1626172.png"
   }
 ];
 

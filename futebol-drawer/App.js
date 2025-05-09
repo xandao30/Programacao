@@ -11,12 +11,13 @@ import CustomDrawerContent from './components/CustomDrawerContent';
 
 const Drawer = createDrawerNavigator();
 
+// Cores dos Warriors: Azul real e dourado
 const theme = {
   ...MD3DarkTheme,
   colors: {
     ...MD3DarkTheme.colors,
-    primary: '#D32F2F',
-    secondary: '#000000',
+    primary: '#006BB6',   // Azul Warriors
+    secondary: '#FDB927', // Dourado Warriors
   },
 };
 
@@ -28,10 +29,10 @@ export default function App() {
           initialRouteName="Escudo"
           drawerContent={(props) => <CustomDrawerContent {...props} />}
           screenOptions={({ route }) => ({
-            drawerActiveTintColor: '#D32F2F',
+            drawerActiveTintColor: '#FDB927',
             drawerInactiveTintColor: '#fff',
-            drawerStyle: { backgroundColor: '#121212' },
-            headerStyle: { backgroundColor: '#D32F2F' },
+            drawerStyle: { backgroundColor: '#001F3F' },
+            headerStyle: { backgroundColor: '#006BB6' },
             headerTintColor: '#fff',
             headerTitleAlign: 'center',
             drawerIcon: ({ color, size }) => {

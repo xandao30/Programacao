@@ -7,7 +7,7 @@ export default function CustomDrawerContent(props) {
     <DrawerContentScrollView {...props}>
       <View style={styles.header}>
         <Image
-          source={{ uri: 'https://i.pinimg.com/236x/16/db/d2/16dbd20fd582e025dc54cc3fbd1839c9.jpg' }}
+          source={{ uri: 'https://upload.wikimedia.org/wikipedia/pt/d/da/Golden_State_Warriors.png' }}
           style={styles.logo}
         />
       </View>
